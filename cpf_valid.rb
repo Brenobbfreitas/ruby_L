@@ -1,7 +1,7 @@
 require "cpf_cnpj"
 
-def verif(cpf)
-    if cpf.valid?(cpf)
+def check_cpf(cpf)
+    if CPF.valid?(cpf)
         puts 'CPF valido'
     else
         puts 'CPF invalido'
@@ -10,6 +10,8 @@ end
 
 puts 'digite o CPF:'
 
-cpf = gets.chomp
+cpf = gets.chomp.to_i
 
-puts "#{verif(cpf)}"
+result = check_cpf(cpf)
+
+puts result
