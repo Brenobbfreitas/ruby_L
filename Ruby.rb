@@ -2,7 +2,9 @@ metodos -> acionados pelo .lenght -> quantidade de valores na string, .reverse, 
 .include? "" -> responsavel por verificar a string com  o parametro escolhido
 gsub!(/string/, "string alteradora")
 podemos intercalar os metodos
+
 .odd? -> retorna valores impares
+
 .each -> Um iterador mais útil é o método .each, que pode aplicar uma expressão a cada elemento de um objeto, um de cada vez. A sintaxe é semelhante a esta: 
 
 You can combine boolean operators in your expressions. Combinations like
