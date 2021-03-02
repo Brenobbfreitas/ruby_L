@@ -17,3 +17,10 @@ hash = {
     pets["nero"] = "cat"
   Acessando o Hash ->
     print pets["nero"]
+    
+    numbers = [1, 2, 3, 4, 5] -> definindo array
+    numbers.each { |element| puts element } -> acessando os elementos do array puts
+    
+    s = [["ham", "swiss"], ["turkey", "cheddar"], ["roast beef", "gruyere"]]
+
+    s.each { |sub_array| sub_array.each { |element| puts element }} -> acessando array bidimensional
